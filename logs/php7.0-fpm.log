@@ -1,0 +1,35 @@
+[10-Apr-2018 07:47:51] NOTICE: configuration file /etc/php/7.0/fpm/php-fpm.conf test is successful
+
+[10-Apr-2018 07:47:51] NOTICE: fpm is running, pid 40
+[10-Apr-2018 07:47:51] NOTICE: ready to handle connections
+[10-Apr-2018 07:47:51] NOTICE: systemd monitor interval set to 10000ms
+[10-Apr-2018 07:53:17] NOTICE: configuration file /etc/php/7.0/fpm/php-fpm.conf test is successful
+
+[10-Apr-2018 07:53:17] NOTICE: fpm is running, pid 40
+[10-Apr-2018 07:53:17] NOTICE: ready to handle connections
+[10-Apr-2018 07:53:17] NOTICE: systemd monitor interval set to 10000ms
+[10-Apr-2018 07:57:17] NOTICE: configuration file /etc/php/7.0/fpm/php-fpm.conf test is successful
+
+[10-Apr-2018 07:57:17] NOTICE: fpm is running, pid 40
+[10-Apr-2018 07:57:17] NOTICE: ready to handle connections
+[10-Apr-2018 07:57:17] NOTICE: systemd monitor interval set to 10000ms
+[10-Apr-2018 07:58:45] NOTICE: configuration file /etc/php/7.0/fpm/php-fpm.conf test is successful
+
+[10-Apr-2018 07:58:45] NOTICE: fpm is running, pid 40
+[10-Apr-2018 07:58:45] NOTICE: ready to handle connections
+[10-Apr-2018 07:58:45] NOTICE: systemd monitor interval set to 10000ms
+[10-Apr-2018 08:00:03] NOTICE: configuration file /etc/php/7.0/fpm/php-fpm.conf test is successful
+
+[10-Apr-2018 08:00:03] NOTICE: fpm is running, pid 40
+[10-Apr-2018 08:00:03] NOTICE: ready to handle connections
+[10-Apr-2018 08:00:03] NOTICE: systemd monitor interval set to 10000ms
+[10-Apr-2018 08:00:46] NOTICE: configuration file /etc/php/7.0/fpm/php-fpm.conf test is successful
+
+[10-Apr-2018 08:00:46] NOTICE: fpm is running, pid 40
+[10-Apr-2018 08:00:46] NOTICE: ready to handle connections
+[10-Apr-2018 08:00:46] NOTICE: systemd monitor interval set to 10000ms
+[10-Apr-2018 08:01:06] NOTICE: configuration file /etc/php/7.0/fpm/php-fpm.conf test is successful
+
+[10-Apr-2018 08:01:06] NOTICE: fpm is running, pid 40
+[10-Apr-2018 08:01:06] NOTICE: ready to handle connections
+[10-Apr-2018 08:01:06] NOTICE: systemd monitor interval set to 10000ms
