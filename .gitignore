@@ -4,6 +4,6 @@
 
 /logs/nginx/
 
-/code/
+/code/*
 
-/etc/nginx/vhosts/
+/etc/nginx/vhosts/*

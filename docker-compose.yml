@@ -5,7 +5,6 @@ services:
         volumes:
             - "./etc/nginx/default.conf:/etc/nginx/conf.d/default.conf"
             - "./etc/nginx/nginx.conf:/etc/nginx/nginx.conf"
-            - "./web:/var/www/html"
             - "./code:/var/www/code"
             - "./logs/nginx:/etc/nginx/logs"
             - "./etc/nginx/vhosts:/etc/nginx/vhosts"
@@ -23,7 +22,6 @@ services:
         volumes:
             - "./etc/php/php.ini:/usr/local/etc/php/conf.d/php.ini"
             - "./code:/var/www/code"
-            - "./web:/var/www/html"
     redis:
         build: ./redis
         ports:
