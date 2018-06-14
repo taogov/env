@@ -1,0 +1,29 @@
+version: '3'
+services:
+    web:
+        image: nginx:alpine
+        volumes:
+            - "./etc/nginx/default.conf:/etc/nginx/conf.d/default.conf"
+            - "./etc/nginx/nginx.conf:/etc/nginx/nginx.conf"
+            - "./code:/var/www/code"
+            - "./logs/nginx:/etc/nginx/logs"
+            - "./etc/nginx/vhosts:/etc/nginx/vhosts"
+        ports:
+            - "80:80"
+            - "443:443"
+        command: /bin/sh -c "nginx -g 'daemon off;'"
+        restart: always
+        depends_on:
+            - php
+            - redis
+    php:
+        build: ./php
+        restart: always
+        volumes:
+            - "./etc/php/php.ini:/usr/local/etc/php/conf.d/php.ini"
+            - "./code:/var/www/code"
+    redis:
+        build: ./redis
+        ports:
+            - "6379:6379"
+        restart: always

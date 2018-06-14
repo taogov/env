@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+/.idea
+
+/logs/nginx/
+
+/code/*
+
+!/code/index.php
+
+/etc/nginx/vhosts/*
