@@ -6,4 +6,6 @@
 
 /code/*
 
+!/code/index.php
+
 /etc/nginx/vhosts/*
