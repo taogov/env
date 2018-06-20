@@ -9,3 +9,5 @@
 !/code/index.php
 
 /etc/nginx/vhosts/*
+
+/redis/tmp/data/*

@@ -26,4 +26,6 @@ services:
         build: ./redis
         ports:
             - "6379:6379"
+        volumes:
+            - "./redis/tmp/data:/data"
         restart: always
