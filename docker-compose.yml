@@ -16,8 +16,15 @@ services:
         depends_on:
             - php
             - redis
+            - php5
     php:
         build: ./php
+        restart: always
+        volumes:
+            - "./etc/php/php.ini:/usr/local/etc/php/conf.d/php.ini"
+            - "./code:/var/www/code"
+    php5:
+        build: ./php5
         restart: always
         volumes:
             - "./etc/php/php.ini:/usr/local/etc/php/conf.d/php.ini"
