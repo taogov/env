@@ -17,6 +17,7 @@ services:
             - php
             - redis
             - php5
+            - mysql
     php:
         build: ./php
         restart: always
@@ -35,4 +36,15 @@ services:
             - "6379:6379"
         volumes:
             - "./redis/tmp/data:/data"
+        restart: always
+    mysql:
+        image: mysql:5.7
+        volumes:
+            - "./etc/mysql/conf/my.cnf:/etc/mysql/my.cnf"
+            - "./mysql/logs:/logs"
+            - "./mysql/data:/var/lib/mysql"
+        environment:
+            - MYSQL_ROOT_PASSWORD=123456
+        ports:
+          - "3306:3306"
         restart: always

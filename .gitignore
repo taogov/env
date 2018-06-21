@@ -11,3 +11,5 @@
 /etc/nginx/vhosts/*
 
 /redis/tmp/data/*
+
+/mysql/data/*
