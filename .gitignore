@@ -13,3 +13,5 @@
 /redis/tmp/data/*
 
 /mysql/data/*
+
+.env
