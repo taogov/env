@@ -3,6 +3,7 @@ services:
     web:
         image: nginx:alpine
         volumes:
+            - "./code:/var/www/demo"
             - "./etc/nginx/nginx.conf:/etc/nginx/nginx.conf"
             - "${WEB_CODE_DIR}:/var/www/code"
             - "./logs/nginx:/etc/nginx/logs"
@@ -23,6 +24,7 @@ services:
         volumes:
             - "./etc/php/php.ini:/usr/local/etc/php/conf.d/php.ini"
             - "${WEB_CODE_DIR}:/var/www/code"
+            - "./code:/var/www/demo"
     php5:
         build: ./php5
         restart: always
