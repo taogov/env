@@ -20,4 +20,7 @@ apk del --no-cache freetype-dev libpng-dev libjpeg-turbo-dev
 
 RUN pecl install redis-4.0.1 \
     && docker-php-ext-enable redis \
-    && docker-php-ext-install mysqli && docker-php-ext-enable mysqli && docker-php-ext-install pdo pdo_mysql
+    && docker-php-ext-install mysqli \
+    && docker-php-ext-enable mysqli \
+    && docker-php-ext-install pdo pdo_mysql \
+    && docker-php-ext-install opcache
