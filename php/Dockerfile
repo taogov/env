@@ -1,4 +1,4 @@
-FROM php:7.0-fpm-alpine
+FROM php:7.1-fpm-alpine
 
 # 更新安装源
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
