@@ -31,4 +31,5 @@ RUN curl -L -o /tmp/redis.tar.gz https://github.com/phpredis/phpredis/archive/$P
     && rm -rf /usr/src/php \
     && docker-php-ext-install mysqli \
     && docker-php-ext-enable mysqli \
-    && docker-php-ext-install pdo pdo_mysql
+    && docker-php-ext-install pdo pdo_mysql \
+    && docker-php-ext-install bcmath
